@@ -8,10 +8,10 @@ app.use(express.json());
 // Our "In-Memory Database" starting with 2 sample items
 let products = [
     { id: 1, name: "Laptop", description: "High performance gaming laptop", price: 1200, quantity: 10 },
-    { id: 2, name: "Wireless Mouse", description: "Ergonomic 2.4GHz mouse", price: 25, quantity: 50 }
+    { id: 2, name: "Smartphone", description: "Latest model smartphone", price: 25, quantity: 50 }
 ];
 
-// 1. Root Route (Health Check)
+// 1. Route 
 app.get('/', (req, res) => {
     res.send('Welcome to the Group 5 Product Inventory API!');
 });
