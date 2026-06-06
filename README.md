@@ -82,3 +82,8 @@ product-inventory-api/
 ## Server runs on:
 
 http://localhost:3000
+
+## API Deployment 
+  https://product-inventory-api-45ym.onrender.com/api/products
+
+
